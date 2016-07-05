@@ -2,22 +2,50 @@
 layout: default
 ---
 
-<div class="home">
+        <section class="content">
+          <div class="hero">
+              <div class="container--small">
+                <p class="hero__text">
+                  Hello!<br>
+                  I am Luke Fiji,<br>
+                  and I create websites.
+                </p>
+              </div>
+            <div id="particles-js"></div>
+          </div>
+        </section>
 
-  <h1 class="page-heading">Posts</h1>
+        <section class="content">
+          <div class="content__header--light">
+            <div class="container">
+              Select Works
+            </div>
+          </div>
+        </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        <section class="portfolio-grid">
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+          <div class="portfolio-grid__square">
+            Test
+          </div>
+        </section>
