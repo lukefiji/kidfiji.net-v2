@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: default
+title: Portfolio
+permalink: /portfolio/
 ---
 
 <section class="content">
@@ -11,6 +13,13 @@ layout: page
 </section>
 
 <section class="portfolio-grid">
+  {% for website in site.web-development %}
+  <a href="{{ website.url | prepend: site.baseurl | prepend: site.url }}">
+    <div class="portfolio-grid__square">
+      {{ website.title }}
+    </div>
+  </a>
+  {% endfor %}
   <div class="portfolio-grid__square">
     Test
   </div>
@@ -46,6 +55,11 @@ layout: page
 </section>
 
 <section class="portfolio-grid">
+  {% for graphic in site.graphics %}
+    <div class="portfolio-grid__square">
+      {{ graphic.title }}
+    </div>
+  {% endfor %}
   <div class="portfolio-grid__square">
     Test
   </div>

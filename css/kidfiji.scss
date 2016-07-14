@@ -6,17 +6,17 @@
 @import "vendor/sanitize";
 @import "vendor/atGrid";
 
-
 // Variables
 $black: #1a1a1a;
 $white: #ffffff;
+
 // Font family settings
 $header-font: 'Montserrat', sans-serif;
 $body-font: 'Raleway', sans-serif;
+
 // Default text settings
 
 // Overrides
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
   text-transform: uppercase;
@@ -56,6 +56,7 @@ p {
   }
 }
 
+
 // Containers
 .container {
   @include ag-container();
@@ -85,12 +86,14 @@ p {
   ul {
     margin-top: 52px;
     letter-spacing: 2px;
-    margin-right: 42px;
     li {
       display: inline-block;
       text-transform: uppercase;
       margin: 0 16px;
     }
+    li:last-child {
+    }
+
   }
   &__link {
     color: $black;
@@ -160,13 +163,12 @@ p {
   }
 }
 
-
 .portfolio-entry {
   @extend %clearfix;
     &__container {
     @include ag-container(1200px, 0  );
     }
-    &__images {
+    &__content {
       @include ag-column(2/3, 0, false);
       background-color: #ccc;
     }
@@ -191,4 +193,11 @@ p {
       letter-spacing: 2px;
       margin-bottom: 8px;
     }
+}
+
+
+// Site Footer
+.site-footer {
+  text-align: center;
+  padding-top: 20px;
 }
