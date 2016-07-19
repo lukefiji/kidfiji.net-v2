@@ -10,18 +10,19 @@ layout: default
 
 <section class="portfolio-entry">
   <div class="portfolio-entry__container">
-    <div class="portfolio-entry__images">
-      {{ page.content }}
+    <div class="portfolio-entry__content">
+      {{ content }}
     </div>
     <div class="portfolio-entry__sidebar">
       <div class="portfolio-entry__title">{{ page.title }}</div>
-      <p>Stay focused. Life is what you make it, so let’s make it. Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. Lion! It’s on you how you want to live your life. Everyone has a choice. I pick my choice, squeaky clean. Eliptical talk. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion!</p>
+      <p>{{ page.description }}</p>
       <div class="portfolio-entry__subtitle">Client</div>
-      <p>Client Name</p>
+      <p>{{ page.client }}</p>
       <div class="portfolio-entry__subtitle">Date</div>
-      <p>April 26, 2016</p>
+      <p>{{ page.project-date }}</p>
       <div class="portfolio-entry__subtitle">Skills Used</div>
-      <p>HTML, CSS, Javascript</p>
+      <p>{{ page.skills }}</p>
+      <a href="/portfolio" class="portfolio-entry__back-button">Go Back</a>
     </div>
   </div>
 </section>

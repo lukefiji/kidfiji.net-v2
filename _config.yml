@@ -22,7 +22,7 @@ collections:
   web-development:
     output: true
     permalink: portfolio/web-development/:path/
-  graphics:
+  graphic-design:
     output: true
     permalink: portfolio/graphic-design/:path/
 
@@ -35,9 +35,9 @@ defaults:
       layout: web-development
   - scope:
       path: ""
-      type: graphics
+      type: graphic-design
     values:
-      layout: graphics
+      layout: graphic-design
 
 # Build settings
 markdown: kramdown

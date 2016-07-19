@@ -16,34 +16,13 @@ permalink: /portfolio/
   {% for website in site.web-development %}
   <a href="{{ website.url | prepend: site.baseurl | prepend: site.url }}">
     <div class="portfolio-grid__square">
-      {{ website.title }}
+      <img src="{{ website.thumbnail | prepend: '/portfolio/web-development/img/' | prepend: site.url }}"/>
+      <div class="portfolio-grid__square-overlay">
+        <div class="portfolio-grid__square-text">{{ website.title }}</div>
+      </div>
     </div>
   </a>
   {% endfor %}
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
 </section>
 
 <section class="content">
@@ -55,33 +34,14 @@ permalink: /portfolio/
 </section>
 
 <section class="portfolio-grid">
-  {% for graphic in site.graphics %}
+  {% for graphic in site.graphic-design %}
+  <a href="{{ graphic.url | prepend: site.baseurl | prepend: site.url }}">
     <div class="portfolio-grid__square">
-      {{ graphic.title }}
+      <img src="{{ graphic.thumbnail | prepend: '/portfolio/graphic-design/img/' | prepend: site.url }}"/>
+      <div class="portfolio-grid__square-overlay">
+        <div class="portfolio-grid__square-text">{{ graphic.title }}</div>
+      </div>
     </div>
+  </a>
   {% endfor %}
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
-  <div class="portfolio-grid__square">
-    Test
-  </div>
 </section>
