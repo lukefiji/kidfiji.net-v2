@@ -74,7 +74,7 @@
           elm.css({
             position: "",
             top: "",
-            width: "33.33333%",
+            width: "",
             bottom: ""
           }).removeClass(sticky_class);
           restore = true;
@@ -84,7 +84,7 @@
         el_float = elm.css("float");
         if (spacer) {
           spacer.css({
-            width: "33.33333%",
+            width: "33.3333%",
             height: height,
             display: elm.css("display"),
             "vertical-align": elm.css("vertical-align"),
