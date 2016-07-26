@@ -1,7 +1,7 @@
 ---
 title: OH MAN! Clothing
 thumbnail: oh-man-clothing-thumbnail.jpg
-description: Graphic design work for a clothing brand, OH MAN! Clothing.
+description: Graphic design work for OH MAN! Clothing, a clothing and lifestyle brand based out of Orange County.
 client: OH MAN! Clothing
 project-date: June 2016
 skills: Photoshop, Illustrator
@@ -10,9 +10,9 @@ skills: Photoshop, Illustrator
 ![OH MAN! Clothing Email Template](../img/oh-man-clothing-email-template.jpg)
 {: .content__media}
 
-The team at OH MAN! Clothing asked me to design them an email template advertising their newest season release to send out to their customers. They then sent it out via Mailchimp to their mailing list.
+The team at OH MAN! Clothing asked me to design them an email template advertising their newest season release to send out to their customers. They then sent it out via MailChimp to their mailing list.
 
-I've also designed several event flyers and facebook banners for them:
+I've also designed several event flyers and Facebook banners for them:
 
 ![OH MAN! Clothing Event Flyer](../img/oh-man-clothing-7-year-flyer.jpg)
 {: .content__media}

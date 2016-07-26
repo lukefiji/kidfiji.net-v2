@@ -7,9 +7,13 @@
 @import "vendor/atGrid";
 
 // Variables
+
 $black: #1a1a1a;
 $gray: #888888;
 $white: #ffffff;
+$teal: #16a085;
+$accent-color: $teal;
+
 
 // Font family settings
 $header-font: 'Montserrat', sans-serif;
@@ -26,9 +30,9 @@ $desktop-breakpoint: 992px;
 // Overrides
 body {
   font-family: $body-font;
-  font-size: 75%;
+  font-size: 87.5%;
   @media (min-width: $tablet-breakpoint) {
-    font-size: 87.5%;
+    font-size: 93.75%;
   }
   @media (min-width: $desktop-breakpoint) {
     font-size: 100%;
@@ -58,7 +62,7 @@ h3 {
 a,
 a:hover,
 a:visited {
-  color: $gray;
+  color: $teal;
   letter-spacing: 1px;
   font-family: $body-font;
 }
@@ -330,6 +334,13 @@ hr:after {
       font-size: 1.625em;
       letter-spacing: 2px;
       margin-bottom: .5em;
+    }
+    .client-link,
+    .client-link:hover,
+    .client-link:visited {
+      color: $black !important;
+      border-bottom: 1px solid $black;
+      padding-bottom: .25em;
     }
 }
 
