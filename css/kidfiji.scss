@@ -121,11 +121,18 @@ hr:after {
 // Header
 .header {
   //height: 128px;
-  padding: 1.5em 0;
+  padding: 1.25em 0;
   width: 100%;
+  @media (min-width: $phone-breakpoint) {
+    padding: 1.5em 0;
+  }
   &__logo {
-    height: 5em;
-    width: 5em;
+    height: 4em;
+    width: 4em;
+    @media (min-width: $phone-breakpoint) {
+      height: 5em;
+      width: 5em;
+    }
   }
 }
 
@@ -135,12 +142,18 @@ hr:after {
   font-family: $body-font;
   float: right;
   margin-top: 1.625em;
+  @media (max-width: $phone-breakpoint) {
+    font-size: .8em;
+  }
   ul {
     letter-spacing: 2px;
     li {
       display: inline-block;
       text-transform: uppercase;
       margin: 0 1em;
+      @media (max-width: $phone-breakpoint) {
+        margin: 0 .5em;
+      }
     }
   }
   &__link {
@@ -173,7 +186,10 @@ hr:after {
     line-height: 1.15;
     letter-spacing: -1.7px;
     color: $white;
-    font-size: 2.5em;
+    font-size: 2.25em;
+    @media (max-width: 360px) {
+      font-size: 1.75em;
+    }
     @media (min-width: $phone-breakpoint) {
       font-size: 2.75em;
     }
@@ -200,7 +216,10 @@ hr:after {
 .about {
   padding-top: 1.25em;
   &__skills-column {
-    @include ag-column(1/3, 0, false);
+    @include ag-column(1/1, 0, false);
+    @media (min-width: $tablet-breakpoint) {
+      @include ag-column(1/3, 0, false);
+    }
   }
   &__contact {
     text-align: center;
@@ -224,6 +243,9 @@ hr:after {
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: .385em 0;
+    @media (max-width: $phone-breakpoint) {
+      font-size: 1.25em;
+    }
   }
   &__header--dark {
     background-color: $black;
@@ -233,6 +255,9 @@ hr:after {
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: .385em 0;
+    @media (max-width: $phone-breakpoint) {
+      font-size: 1.25em;
+    }
   }
 }
 

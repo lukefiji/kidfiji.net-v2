@@ -4,7 +4,7 @@ thumbnail: kidfiji-thumbnail.jpg
 description: My portfolio website, designed in Illustrator then coded in HTML/CSS.
 client: Myself
 link: http://www.kidfiji.net
-project-date: June 2016
+project-date: December 2015 - Present (Ongoing)
 skills: HTML, CSS, JavaScript, SASS, Jekyll, Adobe Illustrator
 ---
 

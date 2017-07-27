@@ -4,7 +4,7 @@ thumbnail: oh-man-clothing-thumbnail.jpg
 description: A website I designed for OH MAN! Clothing, a clothing and lifestyle brand based out of Orange County.
 client: OH MAN! Clothing
 link: http://www.ohmanclothing.com
-project-date: June 2016
+project-date: July 2015 - Present (Ongoing)
 skills: WordPress, HTML, CSS, JavaScript, Photoshop
 ---
 ![OH MAN! Clothing Website Screenshot](../img/oh-man-clothing.jpg)

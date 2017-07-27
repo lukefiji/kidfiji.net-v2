@@ -4,7 +4,7 @@ thumbnail: rk-tech-thumbnail.jpg
 description: A website I designed from a base theme for RK Tech, a web development agency.
 client: RK Tech
 link: http://www.rktech.co
-project-date: June 2016
+project-date: May 2016
 skills: WordPress, HTML, CSS, JavaScript, PHP, Photoshop
 ---
 

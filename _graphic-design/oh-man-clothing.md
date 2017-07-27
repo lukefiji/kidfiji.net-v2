@@ -3,7 +3,7 @@ title: OH MAN! Clothing
 thumbnail: oh-man-clothing-thumbnail.jpg
 description: Graphic design work for OH MAN! Clothing, a clothing and lifestyle brand based out of Orange County.
 client: OH MAN! Clothing
-project-date: June 2016
+project-date: July 2015 - Present (Ongoing)
 skills: Photoshop, Illustrator
 ---
 

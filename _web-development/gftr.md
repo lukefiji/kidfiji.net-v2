@@ -4,7 +4,7 @@ thumbnail: gftr-thumbnail.jpg
 description: A website for GFTR, an iOS wishlist app.
 client: Gftr App LLC
 link: http://www.gftrapp.com
-project-date: June 2016
+project-date: October 2016 - May 2016
 skills: WordPress, HTML, CSS, JavaScript, PHP, Photoshop
 ---
 
